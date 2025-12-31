@@ -7,7 +7,7 @@ export const siteConfig = {
     name: "Amrit Thapa",
     title: "Software Engineer | Backend Developer",
     email: "amet.thapa27@gmail.com",
-    phone: "+1 (234) 567-890",
+    phone: "+49 1556 5707404",
     location: "Magdeburg, Germany",
     profileImage: "/header_photo.jpg",
     resumePDF: "/resume.pdf",
@@ -16,50 +16,84 @@ export const siteConfig = {
   // Bio/About Section
   bio: {
     paragraphs: [
-      "I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.",
-      "Currently, I'm a Senior Full-Stack Engineer at TechCorp, specializing in building scalable web applications. I contribute to the creation and maintenance of UI components that power our platform's frontend, ensuring our products meet web accessibility standards and best practices to deliver an inclusive user experience.",
-      "In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with modern technologies.",
+      "I'm a passionate, self-motivated software engineer with experience in back-end development, cloud services and automation tools.",
+      "3+ years of industry experience, specializing in building scalable web applications. Handson experiences with AWS cloud services like S3, Lambda, Queue. Leadership experience as a team lead for a project involving multiple developers.",
+      "Currently pursuing my Master's in Digital Engineering at Otto von Guericke University, Magdeburg, Germany.",
     ],
   },
 
   // Social Links
   social: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
+    github: "https://github.com/ametthapa",
+    linkedin: "https://www.linkedin.com/in/amritthapa27/",
+    // twitter: "https://twitter.com/yourusername",
   },
 
   // Work Experience
   experience: [
     {
-      period: "2024 — Present",
-      title: "Senior Frontend Engineer",
-      company: "TechCorp",
-      companyUrl: "https://techcorp.com",
-      description:
-        "Build and maintain critical components used to construct TechCorp's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+      period: "April 2025 — August 2025",
+      title: "Software Engineer",
+      company: "Fanz Unlimited LLC",
+      // companyUrl: "https://techcorp.com",
+      description: [
+        "Implemented Live Streaming functionality integrating a vendor, also handling all the associated business logic to align with requirements",
+        "Developed a CRUD in the admin panel that allows administrators to publish articles for platform updates and onboarding, while end users can view, read and like the article considering UI/UX.",
+      ],
+      technologies: ["PHP", "Javascript", "Cloud", "MySQL"],
       colorScheme: "chart-1", // Used for styling
     },
     {
-      period: "2022 — 2024",
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      companyUrl: "https://startupxyz.com",
-      description:
-        "Developed and shipped highly interactive web applications for a fast-growing startup. Collaborated with designers to translate Figma designs into responsive, performant React applications. Implemented RESTful APIs and integrated with third-party services.",
-      technologies: ["JavaScript", "Node.js", "PostgreSQL", "AWS"],
+      period: "July 2022 — April 2025",
+      title: "Software Engineer",
+      company: "Cedargate Technologies",
+      companyUrl: "https://www.cedargate.com/",
+      description:[
+        "Implemented functionality to resume file generation from previous stages using S3 bucket, enhancing project resilience and secure data handling,",
+        "Researched on new features and feasibility and working with team to complete it,",
+        "Developed features to meet project requirements, demonstrating strong software engineering principles,",
+        "Created various automated scripts (python, SQL procedures) to trigger schedules, fetch usercreated artifact information, and build tools to increase productivity and security compliance"
+      ],
+      technologies: ["JAVA", "AWS", "Angular", "MySQL"],
       colorScheme: "chart-2",
     },
     {
-      period: "2020 — 2022",
-      title: "Frontend Developer",
-      company: "Digital Agency Co.",
-      companyUrl: "https://digitalagency.com",
-      description:
-        "Built and maintained websites for various clients across different industries. Focused on creating responsive, accessible, and performant web experiences. Worked with modern JavaScript frameworks and CMS platforms.",
-      technologies: ["Vue.js", "SCSS", "WordPress", "Figma"],
+      period: "December 2024 — April 2025",
+      title: "Software Engineer - Part Time",
+      company: "Fanz Unlimited LLC",
+      // companyUrl: "https://digitalagency.com",
+      description:[
+        "Implemented various functionalities connecting to vendors and their APIs into our platform for verifying user age and moderating(poizoning) shared content,",
+        "Created a simple and robust User Interface for users on the platforms",
+      ],
+      technologies: ["PHP", "JavaScript", "APIs"],
       colorScheme: "chart-3",
+    },
+    {
+      period: "July 2024 – October 2024",
+      title: "Software Engineer - Part Time",
+      company: "US Legal Pro",
+      companyUrl: "https://uslegalpro.com/",
+      description:[
+        "Developed a feature that allows legal personnel to send customized emails to users, incorporating secure handling of sensitive data,,",
+        "Designed and implemented functionality to sort raw data displayed in tables, streamlining the presentation, and enabling more efficient data analysis,",
+        "Contributed to enhancing the user interface and overall usability of internal tools, improving operational efficiency"
+      ],
+      technologies: ["Java","JavaScript", "XML"],
+      colorScheme: "chart-4",
+    },
+    {
+      period: "December 2024 — April 2025",
+      title: "Software Engineer - Trainee",
+      company: "Cedargate Technologies",
+      companyUrl: "https://www.cedargate.com",
+      description:[
+        "Improved debugging skills by resolving complex issues efficiently,",
+        "Worked with AWS services, including CloudWatch, Code Commit, SQS and S3 bucket,",
+        "Explored various aspects of software development, acquiring a comprehensive grasp of the entire development lifecycle"
+      ],
+      technologies: ["AWS", "Java", "JavaScript"],
+      colorScheme: "chart-1",
     },
   ],
 

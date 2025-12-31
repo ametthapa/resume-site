@@ -6,7 +6,7 @@ import { ThemeToggle } from "./theme-toggle"
 const navItems = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
+  // { id: "projects", label: "Projects" },
   { id: "contact", label: "Contact" },
 ]
 
@@ -45,7 +45,7 @@ export function Navigation() {
           <h1 className="mb-2 bg-gradient-to-r from-primary via-accent to-chart-3 bg-clip-text text-3xl font-bold tracking-tight text-transparent">
             Amrit Thapa
           </h1>
-          <p className="text-lg font-semibold text-foreground">Full Stack Developer</p>
+          <p className="text-lg font-semibold text-foreground">Software Engineer</p>
           <p className="mt-2 text-sm text-muted-foreground">Building elegant digital experiences</p>
         </div>
 
@@ -76,7 +76,7 @@ export function Navigation() {
         <ThemeToggle />
         <div className="flex gap-3">
           <a
-            href="https://github.com"
+            href="https://github.com/ametthapa"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-chart-1"
@@ -87,7 +87,7 @@ export function Navigation() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/amritthapa27/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-chart-2"

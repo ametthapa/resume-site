@@ -40,11 +40,15 @@ export default function Home() {
                         className="mt-1 flex items-center gap-2 font-medium text-primary hover:text-accent"
                       >
                         {job.company}
-                        <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
+                        {/* <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
                       </a>
                     </div>
                   </div>
-                  <p className="mb-4 leading-relaxed text-muted-foreground">{job.description}</p>
+                  <ul className="mb-4 leading-relaxed text-muted-foreground list-disc pl-5">
+                    {job.description.map((desc, index) => (
+                      <li key={index}>{desc}</li>
+                    ))}
+                  </ul>
                   <div className="flex flex-wrap gap-2">
                     {job.technologies.map((tech, techIndex) => {
                       const colors = ["chart-1", "chart-2", "chart-3", "chart-4", "chart-5"]
@@ -65,7 +69,7 @@ export default function Home() {
           </section>
 
           {/* Projects Section */}
-          <section id="projects" className="mb-32 min-h-screen">
+          {/* <section id="projects" className="mb-32 min-h-screen">
             <h2 className="mb-12 text-3xl font-bold text-primary">Featured Projects</h2>
 
             <div className="space-y-8">
@@ -116,7 +120,7 @@ export default function Home() {
                 </Card>
               ))}
             </div>
-          </section>
+          </section> */}
 
           {/* Contact Section */}
           <section id="contact" className="min-h-screen pb-20">
@@ -163,7 +167,7 @@ export default function Home() {
                           LinkedIn
                         </a>
                       </Button>
-                      <Button
+                      {/* <Button
                         asChild
                         variant="outline"
                         size="sm"
@@ -173,7 +177,7 @@ export default function Home() {
                           <Twitter className="mr-2 h-4 w-4" />
                           Twitter
                         </a>
-                      </Button>
+                      </Button> */}
                     </div>
                   </div>
                 </div>
