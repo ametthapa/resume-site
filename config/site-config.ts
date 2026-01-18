@@ -1,6 +1,8 @@
 // Site Configuration
 // Edit this file to customize all the content on your resume site
 
+import { University } from "lucide-react"
+
 export const siteConfig = {
   // Personal Information
   personal: {
@@ -97,6 +99,28 @@ export const siteConfig = {
     },
   ],
 
+  //education
+  education: [
+    {
+      courseName: "Master's in Digital Engineering",
+      university: "Otto von Guericke University",
+      universityUrl: "https://www.ovgu.de/",
+      period: "October 2025 - Present",
+      location: "Germany",
+      colorScheme: "chart-1",
+    },
+    {
+      courseName: "Bachelor of Science in Computer Science and Information Technology",
+      university: "Tribhuvan University",
+      universityUrl: "https://tu.edu.np/",
+      period: "2016 - 2021",
+      location: "Nepal",
+      colorScheme: "chart-2",
+    }
+
+   
+  ],
+
   // Projects
   projects: [
     {
@@ -137,8 +161,8 @@ export const siteConfig = {
 
   // Footer
   footer: {
-    builtWith: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    copyrightName: "Alex Morgan",
+    builtWith: ["Next.js", "TypeScript", "Tailwind CSS", "Github"],
+    copyrightName: "Amrit Thapa",
   },
 }
 

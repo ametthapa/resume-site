@@ -6,6 +6,7 @@ import { ThemeToggle } from "./theme-toggle"
 const navItems = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
   // { id: "projects", label: "Projects" },
   { id: "contact", label: "Contact" },
 ]

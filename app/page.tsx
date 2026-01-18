@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { siteConfig } from "@/config/site-config"
 
 export default function Home() {
-  const { experience, projects, contact, social, footer, personal } = siteConfig
+  const { experience, projects, contact, social, footer, personal, education } = siteConfig
 
   return (
     <div className="min-h-screen">
@@ -62,6 +62,37 @@ export default function Home() {
                         </span>
                       )
                     })}
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </section>
+
+          {/* Education Section */}
+          <section id="education" className="mb-32 min-h-screen">
+            <h2 className="mb-12 text-3xl font-bold text-primary">Education</h2>
+
+            <div className="space-y-12">
+              {education.map((edu, index) => (
+                <Card
+                  key={index}
+                  className={`group relative overflow-hidden border-l-4 border-l-${edu.colorScheme} border-t-border bg-card p-6 shadow-lg shadow-${edu.colorScheme}/5 transition-all hover:border-l-${edu.colorScheme} hover:bg-secondary hover:shadow-xl hover:shadow-${edu.colorScheme}/10`}
+                >
+                  <div className="mb-4 flex items-start justify-between">
+                    <div>
+                      <p className={`text-sm font-medium text-${edu.colorScheme}`}>{edu.period}</p>
+                      <h3 className="mt-2 text-xl font-semibold text-card-foreground">{edu.courseName}</h3>
+                      <a
+                        href={edu.universityUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 flex items-center gap-2 font-medium text-primary hover:text-accent"
+                      >
+                        {edu.university}
+                        {/* <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
+                      </a><small>{edu.location}</small>
+                      
+                    </div>
                   </div>
                 </Card>
               ))}
