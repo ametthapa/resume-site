@@ -215,7 +215,7 @@ export default function Home() {
               </Card>
 
               <div className="mt-16 space-y-4">
-                <div className="rounded-lg border border-border bg-card p-6 text-center">
+                {/* <div className="rounded-lg border border-border bg-card p-6 text-center">
                   <p className="mb-2 text-sm font-medium text-foreground">
                     Built with passion using modern technologies
                   </p>
@@ -233,7 +233,7 @@ export default function Home() {
                       )
                     })}
                   </div>
-                </div>
+                </div> */}
 
                 <p className="text-center text-sm text-muted-foreground">
                   © {new Date().getFullYear()} {footer.copyrightName}. All rights reserved.
