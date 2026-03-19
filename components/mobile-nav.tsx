@@ -25,8 +25,8 @@ export function MobileNav() {
     <div className="fixed left-0 right-0 top-0 z-50 lg:hidden">
       <div className="flex items-center justify-between border-b border-border bg-background/80 p-4 backdrop-blur-sm">
         <div>
-          <h1 className="text-xl font-bold text-primary">Alex Morgan</h1>
-          <p className="text-xs text-muted-foreground">Full Stack Developer</p>
+          <h1 className="text-xl font-bold text-primary">Amrit Thapa</h1>
+          <p className="text-xs text-muted-foreground">Software Engineer</p>
         </div>
         <div className="flex items-center gap-2">
           <ThemeToggle />
