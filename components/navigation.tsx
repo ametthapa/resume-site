@@ -47,7 +47,7 @@ export function Navigation() {
             Amrit Thapa
           </h1>
           <p className="text-lg font-semibold text-foreground">Software Engineer</p>
-          <p className="mt-2 text-sm text-muted-foreground">Building elegant digital experiences</p>
+          <p className="mt-2 text-sm text-muted-foreground">Building scalable web application</p>
         </div>
 
         <ul className="space-y-4">

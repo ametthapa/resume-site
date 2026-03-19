@@ -36,7 +36,7 @@ export const siteConfig = {
     {
       period: "April 2025 — August 2025",
       title: "Software Engineer",
-      company: "Fanz Unlimited LLC",
+      company: "Freelance",
       // companyUrl: "https://techcorp.com",
       description: [
         "Implemented Live Streaming functionality integrating a vendor, also handling all the associated business logic to align with requirements",
@@ -62,7 +62,7 @@ export const siteConfig = {
     {
       period: "December 2024 — April 2025",
       title: "Software Engineer - Part Time",
-      company: "Fanz Unlimited LLC",
+      company: "Freelance",
       // companyUrl: "https://digitalagency.com",
       description:[
         "Implemented various functionalities connecting to vendors and their APIs into our platform for verifying user age and moderating(poizoning) shared content,",
